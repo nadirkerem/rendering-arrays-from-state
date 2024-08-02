@@ -1,0 +1,16 @@
+.score-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.score-item:last-child {
+  border-bottom: none;
+}
+
+.score-date,
+.score-value {
+  font-size: 0.9em;
+  color: #333;
+}
